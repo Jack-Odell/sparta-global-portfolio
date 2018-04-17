@@ -1,3 +1,19 @@
 body {
-  background-color:;
+  background-color: #fafafa;
+}
+
+.PageContainer {
+  margin-left: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: auto;
+  display: inline-block;
 }
