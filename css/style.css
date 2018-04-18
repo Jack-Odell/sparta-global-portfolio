@@ -1,20 +1,44 @@
-
-
 /* Classes */
  .bottom-margin {
-   margin-bottom: 20px;
+   margin-bottom: 5%;
  }
 
-.calig-font {
-  font-family: 'Calligraffitti', cursive;
-  font-size: 25px;
+.railway-font {
+  font-family: 'Raleway', sans-serif;
 }
 
 .grayscale {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+  -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(80%);
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.grayscale:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
 }
 
 .img-padding {
   padding: 33.33%;
+}
+
+.img-margin {
+  margin: 5%;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.indent {
+  margin-left: 5%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.no-bullets {
+  list-style-type: none;
 }
