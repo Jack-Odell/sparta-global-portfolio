@@ -12,11 +12,18 @@
   filter: grayscale(80%);
   -webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+  transition: transform 0.4s ease;
 }
 
 .grayscale:hover {
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
+
+  -webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+-ms-transform: scale(1.05);
+-o-transform: scale(1.05);
+transform: scale(1.05);
 }
 
 .img-padding {
@@ -41,19 +48,6 @@
 
 .no-bullets {
   list-style-type: none;
-}
-
-#project-one-text{
-  border: 1px solid #ccc;
-  display: none;
-  font-size: 10px;
-  margin-top: 10px;
-  padding: 5px;
-  text-transform: uppercase;
-}
-
-#project-one:hover #project-one-text {
-  display: block;
 }
 
 .no-show {
